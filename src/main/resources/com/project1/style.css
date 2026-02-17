@@ -1,0 +1,97 @@
+* {
+    -fx-focus-traversable: false;
+}
+
+VBox {
+    -fx-background-color: #210F37; 
+}
+
+Label {
+    -fx-text-fill: #DCA06D;
+    -fx-font-weight: bold;
+}
+
+Button {
+    -fx-background-color: #4F1C51;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #DCA06D;
+    -fx-cursor: hand;
+}
+
+Button:hover {
+    -fx-font-size: 14px;
+}
+
+.buttonIcon {
+    -fx-fill: #DCA06D;
+    -fx-font-size: 28px;
+}
+
+.smallButtonIcon {
+    -fx-fill: #DCA06D;
+    -fx-font-size: 18px;
+}
+
+ToggleButton {
+    -fx-text-fill: #DCA06D;
+    -fx-background-color: #4F1C51;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+
+
+}
+
+ToggleButton:selected {
+    -fx-text-fill: #4F1C51;
+    -fx-background-color: #DCA06D;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+Slider .track {
+    -fx-background-color: #4F1C51; 
+    -fx-cursor: hand;
+}
+
+Slider .thumb {
+    -fx-background-color: #DCA06D;
+    -fx-cursor: hand;
+}
+
+Pane {
+    -fx-background-color: #DCA06D;
+    -fx-background-radius: 4; 
+}
+
+TextArea {
+    -fx-text-fill: #4F1C51;
+    -fx-focus-color: #4F1C51;
+    -fx-faint-focus-color: #4F1C51;
+    -fx-background-color: #DCA06D;
+}
+
+TextArea .content {
+    -fx-background-color: #DCA06D;
+}
+
+TextArea .scroll-bar {
+    -fx-background-color: #DCA06D;
+
+}
+
+TextArea .scroll-bar .thumb {
+    -fx-background-color: #4F1C51;
+}
+
+TextArea .scroll-pane .increment-button,
+TextArea .scroll-pane .decrement-button {
+    -fx-padding: 0;
+}
+
+TextArea .scroll-pane .increment-arrow,
+TextArea .scroll-pane .decrement-arrow {
+    -fx-padding: 0;
+}
